@@ -22,7 +22,7 @@ export default async function MovieDetail({
 }) {
   console.log("===========");
   console.log("start fetching");
-  const [movie, videos]=await Promise.all([getMovie(id), getVideos(id);])
+  const [movie, videos] = await Promise.all([getMovie(id), getVideos(id)]);
   console.log("end fetching");
   return <h1>{movie.title}</h1>;
 }
