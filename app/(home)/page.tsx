@@ -1,4 +1,4 @@
-import Link from "next/link"; // 올바른 방법
+import Link from "next/link";
 
 export const metadata = {
   title: "Home",
