@@ -18,7 +18,7 @@ export default async function MoiveVideos({ id }: { id: string }) {
         <iframe
           className={styles.iframe}
           key={video.id}
-          src={`http://youtube.com/embed/${video.key}`}
+          src={`https://youtube.com/embed/${video.key}`}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
           title={video.name}
