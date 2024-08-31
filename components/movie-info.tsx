@@ -1,6 +1,7 @@
-import { API_URL } from "../app/(home)/page";
+// import { API_URL } from "../app/(home)/page";
 import styles from "../styles/movie-info.module.css";
 
+const API_URL = "https://nomad-movies.nomadcoders.workers.dev/movies";
 export async function getMovie(id: string) {
   const response = await fetch(`${API_URL}/${id}`);
   return response.json();
@@ -8,6 +9,7 @@ export async function getMovie(id: string) {
 
 export default async function MoiveInfo({ id }: { id: string }) {
   const movie = await getMovie(id);
+
   return (
     <div className={styles.container}>
       <img
