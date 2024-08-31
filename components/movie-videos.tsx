@@ -1,5 +1,7 @@
-import { API_URL } from "../app/(home)/page";
+// import { API_URL } from "../app/(home)/page";
 import styles from "../styles/movie-videos.module.css";
+
+const API_URL = "https://nomad-movies.nomadcoders.workers.dev/movies";
 
 async function getVideo(id: string) {
   new Error("Something broke...");
