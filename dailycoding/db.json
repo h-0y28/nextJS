@@ -1,0 +1,10 @@
+{
+  "topics": [
+    { "id": 1, "title": "html", "body": "html is ..." },
+    { "id": 2, "title": "css", "body": "css is ..." }
+  ],
+  "posts": [
+    { "id": 1, "title": "Hello World" },
+    { "id": 2, "title": "JSON Server" }
+  ]
+}
