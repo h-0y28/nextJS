@@ -1,5 +1,5 @@
 // layout-공통된 부분 관리
-"use client";
+// "use client";
 import Link from "next/link";
 import "./globals.css";
 
@@ -21,7 +21,7 @@ export default async function RootLayout({ children }) {
           {topics.map((topic) => {
             return (
               <li key={topic.id}>
-                <Link href={"/read/${topci.id}"}>{topic.title}</Link>
+                <Link href={`/read/${topic.id}`}>{topic.title}</Link>
               </li>
             );
           })}
